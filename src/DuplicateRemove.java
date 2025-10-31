@@ -13,7 +13,7 @@ public class DuplicateRemove {
         arr.add("Ravi");
         arr.add("Aisha");
         arr.add("Tom");
-        HashSet<String> s = new HashSet<String>(arr);
+        Set<String> s = new HashSet<String>(arr);
         System.out.println(s);
 
     }

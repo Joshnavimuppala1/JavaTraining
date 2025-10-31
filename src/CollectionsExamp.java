@@ -17,7 +17,7 @@ public class CollectionsExamp {
 
 
     public static void main(String[] args){
-        int[]  rating = {9, 10, 12, 8, -1, 7, 11, 10, 6, 2};
+        int[]  rating = {9, 10, 12, 8, -1, 7, 11, 10, 6};
         //remove the invalid ratings
         ArrayList<Integer> arr = new ArrayList<>();
         for(int r:rating){
