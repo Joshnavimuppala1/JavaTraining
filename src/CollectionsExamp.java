@@ -12,11 +12,12 @@
 //        Average Rating: 8.33
 
 import java.util.*;
+
 public class CollectionsExamp {
 
 
     public static void main(String[] args){
-        int[]  rating = {9, 10, 12, 8, -1, 7, 11, 10, 6};
+        int[]  rating = {9, 10, 12, 8, -1, 7, 11, 10, 6, 2};
         //remove the invalid ratings
         ArrayList<Integer> arr = new ArrayList<>();
         for(int r:rating){
