@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class CustomSorting {
     public static void main(String[] args){
-        List<String> list = Arrays.asList("Joshnavi","Josh","Joshna","Muppala","amulya");
+        List<String> list = Arrays.asList("Joshnavi","Josh","hlo","Joshna","Muppala","amulya");
         List<String> desc = list.stream()
                 .sorted((a,b)->b.compareTo(a)  )
                 .collect(Collectors.toList());
