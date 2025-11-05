@@ -1,6 +1,6 @@
 public class Program3 {
     public static void main(String[] args){
-        int[] arr = {3, 8, 1, 6, 5};
+        int[] arr = {3, 8, 1, 6, 5,6};
         int key = 6;
         boolean found = false;
 
